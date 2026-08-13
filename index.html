@@ -9,15 +9,15 @@
 	<body>
 		<main class="main">
 			<h1 class="title">Contact Formulier</h1>
-			<div class="container">
+			<form class="formulier">
 				<h2>Vraag maar raak?</h2>
 				<div class="contact">
-					<label for="name">Volledige Naam</label>
+					<label for="name">Volledige Naam:</label>
 					<input type="text" id="name" name="name" required placeholder="Piet Verdriet">
 				</div>
 				<div class="contact">
-					<label for="email">E-mail</label>
-					<input type="text" id="email" name="email" required placeholder="piet@hotmail.com"> 
+					<label for="email">E-mail:</label>
+					<input type="email" id="email" name="email" required placeholder="piet@hotmail.com"> 
 				</div>
 				<div class="contact">
 					<label for="remark">Opmerking</label>
@@ -25,7 +25,7 @@
 				</div>
 				
 				<button type="submit" class="btn">Klik voor verzending</button>
-			</div>
+			</form>
 		</main>
 		<script scr="script.js"></script>
 	</body>
