@@ -13,7 +13,8 @@
 				<h2>Vraag maar raak?</h2>
 				<div class="contact">
 					<label for="name">Volledige Naam:</label>
-					<input type="text" id="name" name="name" required placeholder="Piet Verdriet">
+					<input type="text" id="name" name="name" required placeholder="Piet Verdriet" maxlength="25">
+					<p class="name-counter">0 / 25</p>
 				</div>
 				<div class="contact">
 					<label for="email">E-mail:</label>
@@ -21,12 +22,13 @@
 				</div>
 				<div class="contact">
 					<label for="remark">Opmerking</label>
-					<textarea id="remark" name="remark" placeholder="Typ hier u opmerking..." rows="3"></textarea>
+					<textarea id="remark" name="remark" placeholder="Typ hier u opmerking..." maxlength="50" rows="3"></textarea>
+					<p class="counter">0 / 50</p>
 				</div>
 				
 				<button type="submit" class="btn">Klik voor verzending</button>
 			</form>
 		</main>
-		<script scr="script.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>

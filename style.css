@@ -32,6 +32,15 @@ html {
     padding: 2rem 5rem;
 }
 
+/*Na de verzend button*/
+
+.confirmation {
+    font-size: 2.2rem; 
+    margin: 0 2rem;
+    text-align: center;
+}
+
+
 .formulier h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -41,7 +50,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .formulier label {
@@ -70,6 +79,52 @@ html {
     resize: none;
     text-align: left;
     min-width: 100%;
+}
+
+.counter {
+    margin-left: auto;
+    margin-right: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.name-counter {
+    margin-left: auto;
+    margin-right: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+/*Counter voor de naam*/
+.counter-limit-name {
+    visibility: hidden;
+} 
+
+.counter-limit-name::after {
+    visibility: visible;
+    content: "Limiet bereikt 25 / 25";
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+/*
+Als gebruiker meer dan 40 letters typt
+*/
+.counter-warning {
+    color: red;
+}
+
+/*
+limiet van 50 bereikt
+*/
+.counter-limit {
+    visibility: hidden;
+}
+
+.counter-limit::after {
+    visibility: visible;
+    content: "Limiet bereikt 50 / 50";
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
 .formulier .btn {
