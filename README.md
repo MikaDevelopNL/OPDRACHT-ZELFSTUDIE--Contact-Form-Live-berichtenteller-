@@ -1,7 +1,7 @@
 Contact Formulier – Live Berichtenteller
 Over dit project
 
-Ik heb dit project gemaakt om erachter te komen hoe ik een live character counter kan maken voor een <textarea>. Tijdens het typen zie je hoeveel tekens je al hebt gebruikt en hoeveel je maximaal mag typen.
+Ik heb dit project gemaakt om erachter te komen hoe ik een live character counter kan maken voor een <input> en <textarea>. Tijdens het typen zie je hoeveel tekens je al hebt gebruikt en hoeveel je maximaal mag typen.
 
 Het is een volledig contactformulier waarmee je een naam, e-mail en bericht kunt invullen en versturen.
 
@@ -14,7 +14,7 @@ Zien wanneer je bijna bij de limiet bent
 Een melding krijgen wanneer de maximale hoeveelheid tekens is bereikt
 Het formulier versturen zonder dat de pagina opnieuw laadt
 
-De maximale lengte van het bericht is 200 tekens.
+De maximale lengte van het bericht is 50 tekens.
 
 Gebruikte technieken
 HTML
