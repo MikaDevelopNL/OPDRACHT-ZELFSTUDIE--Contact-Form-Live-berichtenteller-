@@ -1,31 +1,26 @@
 Contact Formulier – Live Berichtenteller
-Over dit project
 
-Ik heb dit project gemaakt om erachter te komen hoe ik een live character counter kan maken voor een <input> en <textarea>. Tijdens het typen zie je hoeveel tekens je al hebt gebruikt en hoeveel je maximaal mag typen.
+Een interactief contactformulier met een live character counter voor een <textarea>. Tijdens het typen zie je hoeveel tekens je al hebt gebruikt en hoeveel tekens je maximaal mag typen.
 
-Het is een volledig contactformulier waarmee je een naam, e-mail en bericht kunt invullen en versturen.
+Het formulier bevat velden voor een naam, e-mailadres en bericht. Het bericht heeft een maximale lengte van 50 tekens.
 
-Wat kan het formulier?
-Naam invullen
-E-mailadres invullen
-Een bericht typen
-Tijdens het typen het aantal tekens bekijken
-Zien wanneer je bijna bij de limiet bent
-Een melding krijgen wanneer de maximale hoeveelheid tekens is bereikt
-Het formulier versturen zonder dat de pagina opnieuw laadt
-
-De maximale lengte van het bericht is 50 tekens.
-
-Gebruikte technieken
-HTML
-CSS
+🎨 Functionaliteit
+Vul een naam in.
+Vul een e-mailadres in.
+Typ een bericht.
+Bekijk tijdens het typen hoeveel tekens je hebt gebruikt.
+Zie hoeveel tekens je nog kunt gebruiken.
+Krijg visuele feedback wanneer je bijna bij de limiet bent.
+Krijg een duidelijke melding wanneer de maximale hoeveelheid tekens is bereikt.
+Verstuur het formulier zonder dat de pagina opnieuw laadt.
+🛠️ Gebruikte technieken
+HTML5
+CSS3
 JavaScript
 Prettier
 Git
 GitHub
-
-Voor JavaScript heb ik onder andere gewerkt met:
-
+DOM manipulation
 querySelector()
 addEventListener()
 input event
@@ -36,42 +31,50 @@ classList.add()
 classList.remove()
 if / else if / else
 preventDefault()
-Hoe werkt de character counter?
+🔢 Hoe werkt de character counter?
 
-Wanneer iemand begint te typen in de textarea, wordt het aantal getypte tekens automatisch bijgewerkt.
+Wanneer iemand begint te typen in de <textarea>, wordt het aantal getypte tekens automatisch bijgewerkt.
 
-De teller staat rechtsonder bij het tekstveld. Wanneer je dichter bij de maximale hoeveelheid tekens komt, verandert de styling zodat je ziet dat je bijna bij de limiet bent.
+De teller staat rechtsonder bij het tekstveld. Wanneer de gebruiker dichter bij de maximale hoeveelheid tekens komt, verandert de styling zodat duidelijk wordt dat de limiet bijna bereikt is.
 
-Wanneer de limiet bereikt is, wordt dit duidelijk aangegeven.
+Wanneer de maximale lengte van 50 tekens is bereikt, wordt dit duidelijk aangegeven.
 
-Wat heb ik geleerd?
+📚 Wat heb ik geleerd?
 
 Bij deze opdracht heb ik voor het eerst echt gebruikgemaakt van:
 
 .value.length
 
-Hierdoor heb ik beter geleerd hoe ik kan controleren hoeveel tekens iemand heeft getypt.
+Hierdoor heb ik beter geleerd hoe ik kan controleren hoeveel tekens iemand in een tekstveld heeft getypt.
 
-Daarnaast heb ik veel bestaande JavaScript-patronen opnieuw toegepast. Door deze patronen steeds opnieuw te gebruiken hoop ik dat ze steeds meer automatisch gaan.
+Daarnaast heb ik veel bestaande JavaScript-patronen opnieuw toegepast. Door deze patronen steeds opnieuw te gebruiken, hoop ik dat ze steeds meer automatisch gaan worden.
 
 Ik merk dat het begin van een JavaScript-opdracht steeds beter gaat. Wanneer de JavaScript wat dieper wordt, vind ik het nog lastig om alle logica tegelijk te overzien. Daar wil ik steeds beter in worden.
 
-Git & GitHub
+🔧 Git & GitHub
 
 Bij dit project ben ik ook actiever begonnen met Git en GitHub.
 
 Ik heb geoefend met:
 
-branches
+Branches
 git status
 git add
 git commit
 git push
-commits maken per onderdeel van het project
+Commits maken per onderdeel van het project
 
 Ook heb ik Prettier via de terminal geïnstalleerd om mijn code netjes te kunnen formatteren.
 
-Wat wil ik nog verbeteren?
+🚀 Live Demo
+
+https://mikadevelopnl.github.io/OPDRACHT-ZELFSTUDIE--Contact-Form-Live-berichtenteller-/
+
+📌 Status
+
+Dit project is afgerond als oefenproject. Het doel was om JavaScript verder te oefenen met formulier-events, inputvelden en een live character counter.
+
+🔮 Wat wil ik nog verbeteren?
 
 In de toekomst wil ik een backend toevoegen zodat het formulier ook daadwerkelijk gegevens kan verwerken.
 
