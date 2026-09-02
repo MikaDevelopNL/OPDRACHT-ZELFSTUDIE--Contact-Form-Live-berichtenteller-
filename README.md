@@ -53,7 +53,7 @@ Ik maak regelmatig kleine projecten om deze vaardigheden steeds beter zelfstandi
 
 ## 🚀 Live Demo
 
-https://mikadevelopnl.github.io/OPDRACHT-ZELFSTUDIE-Contact-Form---Live-berichtenteller-/
+https://mikadevelopnl.github.io/OPDRACHT-ZELFSTUDIE--Contact-Form-Live-berichtenteller-/
 
 ## 📌 Status
 
