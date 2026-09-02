@@ -31,7 +31,8 @@ classList.add()
 classList.remove()
 if / else if / else
 preventDefault()
-🔢 Hoe werkt de character counter?
+
+##🔢 Hoe werkt de character counter?
 
 Wanneer iemand begint te typen in de <textarea>, wordt het aantal getypte tekens automatisch bijgewerkt.
 
